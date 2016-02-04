@@ -1,0 +1,220 @@
+\chapter{Outlook and Perspective}
+\label{chapter:outlook}
+
+\section{Next Steps}
+\label{sec:future}
+
+In this thesis, we brought a fresh perspective 
+on the modeling of polarization of pulsars
+and questioned the current modeling assumptions.
+Although the work presented here 
+is an improvement on our understanding
+of polarization, the need to go still further
+is continuously present.
+To understand all the data, the model
+needs a fundamental change.  Although we did a fair
+job in explaining the polarization presented
+here, there is still a wealth of pulsar
+polarization data that has not been analyzed
+and will likely not be understood with the
+model revisions presented here alone.
+
+The data that was available for analysis
+was limited.  Often times, only a single frequency 
+was available for analysis or the frequency with the
+most data or smallest error bars was analyzed.
+The frequency maps to the altitude \citep{cordes1978observational} 
+such that different frequency originate at different
+altitudes.
+But this mapping    
+was never tested due to inadequate data.
+As this is a multi-altitude model, having not applied
+this model to multi-frequency data within radio
+is a blatant shortcoming of this thesis.
+Further, the data was averaged over many periods,
+averaging out potentially interesting features.  
+For instance the polarization of PSR J1057$-$5336
+and PSR J1705$-$1906 have periodic nulling as discussed 
+in Chapter \ref{chapter:inwardPhotons} which is related to bidirectional
+emission; it is possible that analyzing the polarization
+data at different times in this cycle may 
+yield further insights.
+Arguably, a population study is needed
+to fully understand the nature of the polarization
+data from pulsars instead of focusing so much on
+individual sweeps.
+
+Throughout the analysis,
+a single altitude of emission for each component
+of the polarization was used. 
+The use of a single-altitude model cannot produce the
+sharp intensity peaks seen in the radio light curve.
+In the $\gamma$-ray emission, these sharp peaks in the intensity 
+are called caustic peaks and are caused by 
+overlapping of emission from a range of altitudes.
+In the outer gap model of $\gamma$-ray emission,
+these caustic peaks naturally arise from tracing
+emission from a single field line transversing through the 
+magnetosphere, away from the pulsar.
+In the radio model, a single altitude assumption will not 
+result in sharp peaks.  A multiple-altitude model would not
+be hard to implement with emission for a single component
+originating over many altitudes but the prescription of
+such an assumption is unclear, thus we assumed the simplest 
+model of just a single altitude.
+
+Scattering effects sometimes appear in the polarization
+for pulsars where interstellar scattering is low.
+For instance, in the paper \cite{karastergiou2009complex},
+the author argues a combination of mode
+jumps and interstellar scattering
+can produce the complex polarization sweeps seen in 
+the pulsar data.
+The pulsar polarization sweep that the author uses as the
+example to which this model is applicable is the data of
+PSR B0355$+$54 (PSR J0358$+$5413).
+In reality the scattering time constant for 
+this pulsar is small compared to the
+amount of scattering needed to 
+cause the amount of smoothing seen in
+the polarization sweep and particularly
+between the supposed mode jumps.
+We also saw more scattering in PSR J1420$-$6048
+than could be explained by the given scattering
+time constant (Section \ref{sec:J1420}).
+Although we did not formally report the
+fitting results of PSR J1600$-$3050 \citep{yan2011polarization},
+in preliminary fitting, increasing the scattering time
+constant did improve the $\chi^2$ significantly. But
+compared to the time constant needed \citep{cordes2002ne2001} 
+such fits were unphysical considering the interstellar scattering.
+This could indicate internal scattering in the magnetosphere
+\citep{braje2001magnetospheric} although such claims would require further investigation
+and another set of revisions to the current model.
+
+Our model is based on the vacuum dipole.  This model
+is acceptable at low altitude but in some cases,
+high altitude limits in the fitting of the
+model to the data were explored.  At high altitudes, plasma effects 
+become important and a force-free model would be
+more appropriate.  
+
+\cite{spitkovsky2006time} first used a time-dependent
+numerical code to calculate non-axisymmetric
+magnetic fields of a force-free model.
+The plasma filled, force-free models that require magnetohydrodynamic
+simulations are used for modeling light curves of
+high altitude emission in the $\gamma$-rays
+\citep{contopoulos2010pulsar,bai2010modeling}.
+
+The time-dependent Maxwell equations are given as
+\begin{equation}
+\frac{\partial \vec{B}}{\partial t}=-\vec{\nabla} \times \vec{E} 
+\end{equation}
+\begin{center}
+and
+\end{center}
+\begin{equation}
+\frac{\partial \vec{E}}{\partial t}=-\vec{\nabla} \times \vec{B} - 4\pi \vec{J}. 
+\end{equation}
+And with the force free assumption, we get
+\begin{equation}
+\vec{J}=\frac{1}{4\pi B^2} \lbrack (\vec{\nabla}\cdot\vec{E}) \vec{E}\times\vec{B} + (\vec{B}\cdot\vec{\nabla}\times\vec{B}-\vec{E}\cdot\vec{\nabla}\times\vec{E})\vec{B}  \rbrack
+.
+\end{equation}
+In the simulations, the above equations are integrated forward in time
+\citep{yee1966numerical}
+until a steady state is obtained.
+
+\cite{harding2011gamma} modeled $\gamma$-ray light curves
+using both vacuum and force-free simulations and
+compared to data.
+They found that data actually favored
+the vacuum models.
+Pulsar $\gamma$-ray emission in these models originate
+from outer gaps in the plasma-filled magnetosphere
+but this study suggests that field lines resemble more
+the vacuum models, hinting that the true
+solution needs properties of both.
+
+Recent work by \cite{kalapotharakos2012gamma,kalapotharakos2012toward,kalapotharakos2014gamma}
+has explored models that
+bridge between vacuum and force-free magnetospheres using a finite
+conductivity.  
+One way of obtaining such a model is by expressing $\vec{J}$
+as 
+\begin{equation}
+\vec{J}=\frac{\vec{\nabla}\cdot\vec{E}}{4\pi} \frac{\vec{E}\times\vec{B}}{B^2} + \sigma \vec{E_{||}}.
+\end{equation}
+The conductivity $\sigma$ can be varied from 0 to $\infty$
+to range between the two standard magnetosphere approximations.
+The focus of these papers was again on $\gamma$-ray light curves.
+For instance, \cite{kalapotharakos2012gamma} used this
+model to synthesize a population study of $\gamma$-ray
+pulsars.
+But such a model is appropriate for high-altitude radio emission.
+Producing polarization sweeps from such a model is sure to 
+bring new insights to the magnetospheric emission far from the neutron star.
+
+
+\section{Summary of Conclusions}
+\label{sec:finalConclusion}
+
+The current state-of-the-art, well-used analysis
+tool for understanding pulsar polarization is 
+the RVM formulation.  Using the simplest model
+for analysis is not intrinsically wrong.  Indeed,
+when faced with a choice, the simplest model and assumptions
+often are the most likely to quickly and clearly
+give insights into a physical problem.
+Yet, in this thesis we have shown again and again 
+the need for a better model to extract all of the
+information from the magnetic field lines of pulsars.
+In the end, the simple RVM does not work for
+complex polarization and for polarization from emission
+high in the magnetosphere.  This polarization contains
+helpful information about the magnetic field lines which
+in turn tells us about the orientation of the pulsar
+and the region of emission.  To extract this information,
+model assumptions must be revisited.
+
+The limits of 
+the analytical models of pulsar polarization including
+RVM and beyond were explored.
+Through comparison to numerical models, we conclude
+that the typical models are
+accurate for low altitude emission but
+approximations quickly break down at higher altitudes.
+
+Next, in our analysis of complex polarization sweeps from 
+high energy pulsars, we included relativistic and
+sweep-back effects \citep{romani2010constraining}, 
+interstellar scattering \citep{cronyn1970analysis}, 
+and orthogonal mode jumps \citep{backer1976orthogonal}. But more
+importantly, finite altitudes and multiple altitudes were used to explain a number
+of jumps in the polarization data.
+The possibility of bidirectional emission from a couple of 
+promising pulsars was explored. Overall, there is evidence of high altitude
+emission in the radio from the practical application
+of the model to the available data.
+
+This thesis work is significant because there are no widely-accepted
+alternatives to simple analytical modeling of pulsar polarization position
+angles. The analytical model does not
+account for effects of the pulsar rotational motion. The simple analytic models
+work well for a large number of the known pulsars but fails for young pulsars
+and millisecond pulsars which often have complicated polarization. By making
+physically motivated models guided by the data, we have been working to
+increase the understanding of pulsars emission mechanism and geometry and to
+explain discrepancies between data and previous models.
+
+
+This thesis has laid the groundwork for future endeavors
+in extracting knowledge from pulsar polarization data.  It is not an end in
+itself but a step beyond the well-established but insufficient
+polarization models. Significant steps are still needed
+to fully understand the polarization but we have
+pushed the field in the right direction to further
+this pursuit.
+
+

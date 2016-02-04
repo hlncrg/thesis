@@ -1,0 +1,139 @@
+\section{Numerical (Geometrically-Based) Modeling in Other Wavelengths}
+\label{sec:ModelingOtherWavelengths}
+Often in studies of pulsar polarization, data in other wavelengths is available
+and can be used to cross-compare results obtained from modeling
+of the position angle sweep.
+In particular, X-ray data of the pulsar wind nebula can 
+be used to derive the viewing angle $\zeta$ and
+modeling of the $\gamma$-ray light curve derive independent
+$\alpha$ and $\zeta$ parameters.  Here we will 
+briefly describe these relevant models.
+
+\subsection{Pulsar X-Ray Wind Tori Model} 
+\label{subsec:ToriModeling}
+The fitting of the pulsar wind tori model in the X-ray band is described in
+detail in \cite{ng2004fitting} and this section is but a 
+brief overview.  
+
+The X-ray pulsar wind nebula is sometimes visible around
+the central pulsar; the orientation of the pulsar and direction of
+the spin axis can be 
+quantified using the visible nebula.  
+The boundary of the pulsar wind nebula is marked by
+the location where the ram pressure of the outflowing material equals
+the external pressure of the surrounding medium.
+The radius of this termination shock boundary is
+\begin{equation}
+r_{\rm termination}\approx \left(\frac{\dot{E}}{4\pi c P_{\rm ext}} \right)^{1/2}
+\end{equation}
+where $\dot{E}$ is the spin down energy and $P_{\rm ext}$ is the
+external pressure.
+\cite{ng2004fitting} assumed simple equatorial
+torus with a Gaussian intensity cross section profile
+to describe the brightness of the nebula tori.
+The fit parameters for this model are $\Psi$, the polar
+axis at a position angle; $\zeta$, the viewing angle measured
+from the rotation axis; $r$, the radial distance
+to the brightest section of the circular tori; $\delta$,
+a measure of the width of the circular tori; and $\beta$,
+the bulk velocity of the post-shock flow.
+Additionally, background must also be fit to 
+the image and the point spread function needs to
+be applied.
+
+The apparent intensity is given as 
+\begin{equation}
+I \propto (1-\hat{n}\cdot \beta)^{-(1+\Gamma)} I_0
+\end{equation}
+\citep{pelling1987scanning}
+where $\Gamma$ is the photon spectral index,
+$I_0$ is the Synchrotron emission intensity and
+$\hat{n}$ is the unit vector along the line of sight.
+In terms of usable parameters:
+\begin{equation}
+I(x^\prime,y^\prime,z^\prime)= 
+\frac{N}{(2\pi\delta)^2r} \times
+\left(1 - \frac{y^\prime \sin \zeta}{\sqrt{{x^\prime}^2
++{y^\prime}^2}}\beta\right)^{-(1+\Gamma)}
+e^{-\left[{z^\prime}^2+(\sqrt{{x^\prime}^2+{y^\prime}^2}-r)^2\right]/2\delta^2}
+.\end{equation}
+The parameters $x$ and $y$ are the coordinates of the CCD frame and $z$
+is the line of sight.  The parameters $x^\prime$, $y^\prime$ and $z^\prime$
+are the coordinates in the frame of the tori such that:
+\begin{equation}
+\begin{array}{ccc}
+x^\prime&=&-x\cos \Psi -y\sin \Psi, \\
+y^\prime&=&(x\sin \Psi - y\cos \Psi)\cos \zeta + z\sin \zeta, \\
+z^\prime&=&-(x\sin \Psi - y\cos \Psi)\sin \zeta + z\cos \zeta.
+\end{array}
+\end{equation}
+The photon spectral index is $\Gamma=1.5$.
+For more details and caveats of the model and
+fitting scheme, see \cite{ng2004fitting}. 
+
+\subsection{Pulsar $\gamma$-Ray Light Curve Model}
+
+In Section \ref{sec:calculation} we discussed the formulation
+necessary to fire photons along magnetic field lines
+of a rotating pulsar.  For modeling in the radio,
+emission is assumed to come from a single set of magnetic
+field lines at the same altitude. For modeling in the 
+$\gamma$-rays, emission comes from the outer gap region
+of the magnetosphere as discussed in Section \ref{sec:pulsarMag}.
+Because emission comes from multiple altitudes, caustics, 
+the enveloping of light-rays from multiple locations onto a 
+single location, occur.  These caustics give rise to 
+sharp peaks in intensity of the $\gamma$-rays. 
+
+Similar to \cite{romani2010constraining}, when modeling
+$\gamma$-ray light curves, we apply a path-length cut-off
+to the magnetic field lines that are allowed to emit.
+Only for $s<2s_{\rm{NC,min}}+\rho_{\rm{ypt}}$ measured 
+from the center of the pulsar 
+along the arching field line are photons illuminated at
+full strength.  Here $s$ is the path length of the 
+magnetic field line, $s_{\rm{NC,min}}$ is the minimum
+path length of field lines at a given fraction of the polar cap,
+and $\rho_{\rm ypt}$ is the effective light cylinder radius.
+Beyond which, illumination is damped according
+to
+\begin{equation}
+e^{-[(s-2s_{\rm{NC,min}}-\rho_{\rm{ypt}})/\sigma_s]^2}. 
+\end{equation}
+
+This cut-off eliminates field lines that arch over the
+pulsar and cross the null-charge surface far from the 
+star.  These field lines create a secondary gap disjointed
+from the main gap on the other side of the spin axis that
+arguably does not exist in most pulsars from a phenomenological
+stand point; an exception to this argument is the 
+emission from the Crab pulsar \citep{moffett1996multifrequency}.
+
+We must also prescribe radiating zones within the outer gap
+and intensity weightings dependent on the location of the radiating
+zones.  Typically, only field line at a certain $w$, the fractional distance
+from the cap boundary, are considered to emit.  
+The heuristic efficiency law 
+\begin{equation}
+w_0=\sqrt{10^{-33}\rm{erg s^{-1}}/\dot{E}}
+\end{equation}
+provides an estimation for the choice of $w$.
+Theoretical basis for this model is provided in \cite{arons2006theory}
+and observational evidence for this model is
+provided in \cite{psrcat}.
+A Gaussian spread is applied to the sheet defined
+by $w_0$ in the magnetosphere to soften the
+caustics seen in emission from a single $w$.
+
+The figure of merit $\chi_3$ defined in
+\cite{romani2010constraining} is often used for analyzing $\gamma$-ray light
+curve data.  This minimization formula is given as
+\begin{equation}
+\chi_3\propto\sum_i\frac{(M_i-O_i)^2}{O_i} e^{-i/3}
+\end{equation}
+where $i$ is an index with the value $|M_i-O_i|$ sorted from largest
+to smallest.  Here $M_i$ is the model data point
+and $O_i$ is the observed data point.  Such a scheme will 
+cause models that better match the intensity peaks in the light
+curve to be favored during minimization of the function.
+  

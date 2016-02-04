@@ -1,0 +1,46 @@
+\section{Rotating Vector Model}
+\label{sec:RVMformula}
+
+The rotating vector model (RVM) relates the 
+geometrical angles $\alpha$ (the angle between
+the spin axis and the magnetic axis) and $\zeta$ (the
+angle between the spin axis and the line of sight)
+to the polarization position angle $\psi$ for 
+a given phase angle $\phi$.
+
+We start with a fixed magnetic axis given by
+\begin{equation}
+\hat{m}=\sin{\alpha}\hat{x}+\cos{\alpha}\hat{z}
+\end{equation}
+and a viewing direction given by
+\begin{equation}
+\hat{n}=\sin{\zeta}\cos{\phi}\hat{x}+\sin{\zeta}\sin{\phi}\hat{y}+\cos{\zeta}\hat{z}.
+\end{equation}
+The polarization angle with respect to $\hat{z}=\vec{\Omega}$
+is the difference in angle between the projection of $\hat{z}$
+onto the viewing plain and the projection of the vector 
+$\hat{n}-\hat{m}/|\hat{n}-\hat{m}|$.
+The viewing plane is defined as orthogonal to $\hat{n}$.
+These projections can then be given by the vector rejections:
+\begin{equation}
+\mathbf{P}_{\Omega}=\mathbf{\hat{z}}-(\mathbf{\hat{z}}\cdot\mathbf{\hat{n}})\mathbf{\hat{n}}
+\end{equation}
+and 
+\begin{equation}
+\mathbf{P}_{m-n}=\frac{\hat{n}-\hat{m}}{|\hat{n}-\hat{m}|}-\left(\frac{\hat{n}-\hat{m}}{|\hat{n}-\hat{m}|}\cdot\mathbf{\hat{n}}\right)\mathbf{\hat{n}}
+.\end{equation}
+
+The polarization angle can be calculated as
+\begin{equation}
+\tan{\psi}=\frac{|\mathbf{P}_{m-n}\times\mathbf{P}_{\Omega}|}{\mathbf{P}_{m-n}\cdot\mathbf{P}_{\Omega}}
+.\end{equation}
+
+Plugging in the above formulas and simplifying gives us the familiar 
+rotating vector model equation:
+\begin{equation}
+\tan{\psi}=\frac{
+-\sin{\alpha}\sin{\phi}
+}{
+\cos{\alpha}\sin{\zeta}-\cos{\phi}\cos{\zeta}\sin{\alpha}
+}
+.\end{equation}

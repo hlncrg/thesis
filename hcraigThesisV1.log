@@ -1,0 +1,743 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011/TWW) (format=latex 2013.2.5)  20 JUL 2015 18:23
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**hcraigThesisV1
+(./hcraigThesisV1.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, galician, german, ngerman, swissgerman, monogreek, greek, hungarian,
+ icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, or
+iya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji,
+ lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, pol
+ish, portuguese, romanian, russian, sanskrit, serbian, serbianc, slovak, sloven
+ian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded
+.
+(/opt/TWWfsw/texlive2011p/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/opt/TWWfsw/texlive2011p/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/opt/TWWfsw/texlive2011p/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (./Suthesis-2e.sty
+
+LaTeX Warning: You have requested package `Suthesis-2e',
+               but the package provides `suthesis-2e'.
+
+Package: suthesis-2e 2010/05/31
+Note that this tries to fulfill the Stanford Thesis requirements but it is unof
+ficial
+(/opt/TWWfsw/texlive2011p/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+)
+\signaturespace=\skip43
+) (/opt/TWWfsw/texlive2011p/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip44
+\bibsep=\skip45
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count88
+)
+(/opt/TWWfsw/texlive2011p/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/opt/TWWfsw/texlive2011p/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/opt/TWWfsw/texlive2011p/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/opt/TWWfsw/texlive2011p/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/opt/TWWfsw/texlive2011p/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(/opt/TWWfsw/texlive2011p/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/opt/TWWfsw/texlive2011p/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(/opt/TWWfsw/texlive2011p/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/opt/TWWfsw/texlive2011p/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen105
+))
+(/opt/TWWfsw/texlive2011p/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+(/opt/TWWfsw/texlive2011p/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks16
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks17
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks18
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/opt/TWWfsw/texlive2011p/texmf-dist/tex/latex/overpic/overpic.sty
+Package: overpic 2010/09/13 v0.53  Overwriting graphics
+
+Package: overpic v0.53 <2010/09/13> (RN)
+(/opt/TWWfsw/texlive2011p/texmf-dist/tex/latex/eepic/epic.sty
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count101
+\d@lta=\count102
+\@delta=\dimen114
+\@@delta=\dimen115
+\@gridcnt=\count103
+\@joinkind=\count104
+\@dotgap=\dimen116
+\@ddotgap=\dimen117
+\@x@diff=\count105
+\@y@diff=\count106
+\x@diff=\dimen118
+\y@diff=\dimen119
+\@dotbox=\box28
+\num@segments=\count107
+\num@segmentsi=\count108
+\@datafile=\read1
+)
+overpic: relative positioning in percent
+) (/opt/TWWfsw/texlive2011p/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/opt/TWWfsw/texlive2011p/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(./hcraigThesisV1.aux (./extras/abstract.aux) (./extras/dedication.aux)
+(./extras/acknowledgement.aux) (./chapters/roadMap/main.aux)
+(./chapters/pulsarAnatomy/main.aux)
+(./chapters/radioDataAnalyticModels/main.aux)
+(./chapters/numericalModel/main.aux) (./chapters/BCWlimitations/main.aux)
+(./chapters/applicationOfNumericalModel/main.aux)
+(./chapters/multiWaveLength/main.aux)
+(./chapters/inwardDirectedPhotons/main.aux) (./chapters/outlook/main.aux)
+(./bibliography.aux))
+\openout1 = `hcraigThesisV1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+ [1
+
+]
+\openout2 = `extras/abstract.aux'.
+
+ (./extras/abstract.tex) [4
+
+
+
+]
+\openout2 = `extras/dedication.aux'.
+
+ (./extras/dedication.tex) [5
+
+
+
+]
+\openout2 = `extras/acknowledgement.aux'.
+
+ (./extras/acknowledgement.tex [6
+
+
+
+]) [7] [8] (./hcraigThesisV1.toc [9
+
+
+]
+[10]
+Overfull \hbox (3.91328pt too wide) in paragraph at lines 58--58
+ [][] []\OT1/cmr/m/n/12 PSR J0737$\OMS/cmsy/m/n/12 ^^@$\OT1/cmr/m/n/12 3039A: C
+har-ac-ter-iz-ing a Dou-ble Pul-sar Sys-tem with Finite- 
+ []
+
+[11])
+\tf@toc=\write3
+\openout3 = `hcraigThesisV1.toc'.
+
+ [12] (./hcraigThesisV1.lot)
+\tf@lot=\write4
+\openout4 = `hcraigThesisV1.lot'.
+
+ [13
+
+] (./hcraigThesisV1.lof [14
+
+] [15] [16])
+\tf@lof=\write5
+\openout5 = `hcraigThesisV1.lof'.
+
+
+[17]
+\openout2 = `chapters/roadMap/main.aux'.
+
+ (./chapters/roadMap/main.tex
+Chapter 1.
+[1
+
+
+
+]) [2] [3]
+\openout2 = `chapters/pulsarAnatomy/main.aux'.
+
+ (./chapters/pulsarAnatomy/main.tex
+Chapter 2.
+
+(/nfs/slac/g/ki/ki03/hcraig/thesis/chapters/pulsarAnatomy/sections/originAndSNR
+.tex [4
+
+
+
+] [5] [6])
+(/nfs/slac/g/ki/ki03/hcraig/thesis/chapters/pulsarAnatomy/sections/pulsarWindNe
+bula.tex
+File: chapters/pulsarAnatomy/figures/spec.eps Graphic file (type eps)
+ <chapters/pulsarAnatomy/figures/spec.eps>)
+(/nfs/slac/g/ki/ki03/hcraig/thesis/chapters/pulsarAnatomy/sections/pulsarMagnet
+osphere.tex [7] [8] [9])
+(/nfs/slac/g/ki/ki03/hcraig/thesis/chapters/pulsarAnatomy/sections/neutronStarE
+quationOfState.tex [10])
+(/nfs/slac/g/ki/ki03/hcraig/thesis/chapters/pulsarAnatomy/sections/pulsarPopAnd
+Age.tex
+File: chapters/pulsarAnatomy/figures/ppdot.eps Graphic file (type eps)
+ <chapters/pulsarAnatomy/figures/ppdot.eps>)) [11] [12]
+\openout2 = `chapters/radioDataAnalyticModels/main.aux'.
+
+
+(./chapters/radioDataAnalyticModels/main.tex
+Chapter 3.
+
+(/nfs/slac/g/ki/ki03/hcraig/thesis/chapters/radioDataAnalyticModels/sections/po
+larization.tex [13
+
+
+
+]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14])
+(/nfs/slac/g/ki/ki03/hcraig/thesis/chapters/radioDataAnalyticModels/sections/in
+terstellarMedium.tex [15] [16])
+(/nfs/slac/g/ki/ki03/hcraig/thesis/chapters/radioDataAnalyticModels/sections/be
+amingGeometry.tex [17] [18])
+(/nfs/slac/g/ki/ki03/hcraig/thesis/chapters/radioDataAnalyticModels/sections/ro
+tatingVectorModel.tex [19])) [20]
+\openout2 = `chapters/numericalModel/main.aux'.
+
+ (./chapters/numericalModel/main.tex
+Chapter 4.
+(./chapters/numericalModel/sections/calculations.tex [21
+
+
+
+] [22] [23])
+(./chapters/numericalModel/sections/polarization.tex [24] [25]
+Overfull \hbox (24.69632pt too wide) detected at line 94
+\OT1/cmr/bx/n/12 p[] \OT1/cmr/m/n/12 =\OML/cmm/m/it/12 < \OT1/cmr/m/n/12 0\OML/
+cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 1 \OML/cmm/m/
+it/12 > \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 < \OT1/cmr/m/n/12
+ 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 1 \OML
+/cmm/m/it/12 > \OMS/cmsy/m/n/12 ^^A \OML/cmm/m/it/12 < v[]; v[]; v[] >\OT1/cmr/
+m/n/12 ) \OML/cmm/m/it/12 < v[]; v[]; v[] >\OT1/cmr/m/n/12 =\OML/cmm/m/it/12 < 
+\OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 v[]v[]; \OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/
+12 v[]v[]; \OT1/cmr/m/n/12 1 \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 v[]v[] > :
+ []
+
+) (./chapters/numericalModel/sections/otherWavelenghts.tex [26] [27] [28]))
+[29]
+\openout2 = `chapters/BCWlimitations/main.aux'.
+
+ (./chapters/BCWlimitations/main.tex
+Chapter 5.
+[30
+
+
+
+] [31] [32] [33]
+File: chapters/BCWlimitations/figures/imageCaps.eps Graphic file (type eps)
+ <chapters/BCWlimitations/figures/imageCaps.eps> [34]
+[35]
+File: chapters/BCWlimitations/figures/totDirFitPhi.eps Graphic file (type eps)
+ <chapters/BCWlimitations/figures/totDirFitPhi.eps> [36]
+Overfull \vbox (22.24802pt too high) has occurred while \output is active []
+
+
+[37] [38]
+File: chapters/BCWlimitations/figures/SmapGenCorrected8V2.eps Graphic file (typ
+e eps)
+ <chapters/BCWlimitations/figures/SmapGenCorrected8V2.eps>
+
+LaTeX Warning: Float too large for page by 20.44716pt on input line 320.
+
+[39] [40]
+File: chapters/BCWlimitations/figures/zetaResmagMin.eps Graphic file (type eps)
+
+ <chapters/BCWlimitations/figures/zetaResmagMin.eps>
+File: chapters/BCWlimitations/figures/SmapCorrected4V2.eps Graphic file (type e
+ps)
+
+<chapters/BCWlimitations/figures/SmapCorrected4V2.eps> [41] [42] [43] [44]
+File: chapters/BCWlimitations/figures/totDirFitPsy.eps Graphic file (type eps)
+
+<chapters/BCWlimitations/figures/totDirFitPsy.eps> [45]
+File: chapters/BCWlimitations/figures/totDirFitW.eps Graphic file (type eps)
+
+<chapters/BCWlimitations/figures/totDirFitW.eps> [46] [47] [48]) [49]
+\openout2 = `chapters/applicationOfNumericalModel/main.aux'.
+
+
+(./chapters/applicationOfNumericalModel/main.tex
+Chapter 6.
+[50
+
+
+
+] [51] [52] [53]
+File: chapters/applicationOfNumericalModel/figures/intAndPAJexamplealpha145zeta
+140.eps Graphic file (type eps)
+
+<chapters/applicationOfNumericalModel/figures/intAndPAJexamplealpha145zeta140.e
+ps> [54] [55] [56] [57] [58] [59] [60] [61]
+Overfull \hbox (13.03064pt too wide) in paragraph at lines 560--561
+ [] 
+ []
+
+[62]
+File: chapters/applicationOfNumericalModel/figures/intAndPAJ0023alpha59zeta119.
+eps Graphic file (type eps)
+
+<chapters/applicationOfNumericalModel/figures/intAndPAJ0023alpha59zeta119.eps>
+File: chapters/applicationOfNumericalModel/figures/J0023+0923MapWyptRhoCut.eps 
+Graphic file (type eps)
+
+<chapters/applicationOfNumericalModel/figures/J0023+0923MapWyptRhoCut.eps>
+[63] [64] [65]
+Overfull \hbox (11.07616pt too wide) in paragraph at lines 700--701
+ [] 
+ []
+
+File: chapters/applicationOfNumericalModel/figures/intAndPAJ1024alpha113zeta108
+.eps Graphic file (type eps)
+
+<chapters/applicationOfNumericalModel/figures/intAndPAJ1024alpha113zeta108.eps>
+
+LaTeX Warning: Float too large for page by 19.60023pt on input line 727.
+
+[66] [67]
+
+LaTeX Warning: Text page 68 contains only floats.
+
+[68] [69]
+Overfull \hbox (11.15399pt too wide) in paragraph at lines 846--847
+ [] 
+ []
+
+File: chapters/applicationOfNumericalModel/figures/intAndPAJ1057alpha77zeta30.e
+ps Graphic file (type eps)
+<chapters/applicationOfNumericalModel/figures/intAndPAJ1057alpha77zeta30.eps>
+
+LaTeX Warning: Float too large for page by 1.16093pt on input line 876.
+
+File: chapters/applicationOfNumericalModel/figures/J1057-5226MapTotRhoCut.eps G
+raphic file (type eps)
+<chapters/applicationOfNumericalModel/figures/J1057-5226MapTotRhoCut.eps>
+[70] [71] [72] [73]
+Overfull \hbox (9.80229pt too wide) in paragraph at lines 998--999
+ [] 
+ []
+
+File: chapters/applicationOfNumericalModel/figures/J1744-1134MapNoJumpSPtotRhoC
+ut.eps Graphic file (type eps)
+
+<chapters/applicationOfNumericalModel/figures/J1744-1134MapNoJumpSPtotRhoCut.ep
+s> [74]
+
+LaTeX Warning: Text page 75 contains only floats.
+
+[75] [76] [77]
+File: chapters/applicationOfNumericalModel/figures/J1420ContoursMap.eps Graphic
+ file (type eps)
+
+<chapters/applicationOfNumericalModel/figures/J1420ContoursMap.eps>
+File: chapters/applicationOfNumericalModel/figures/J1420T1.3msMapTot.eps Graphi
+c file (type eps)
+
+<chapters/applicationOfNumericalModel/figures/J1420T1.3msMapTot.eps> [78]
+[79] [80] [81]
+File: chapters/applicationOfNumericalModel/figures/J1420_torfit_comp.eps Graphi
+c file (type eps)
+
+<chapters/applicationOfNumericalModel/figures/J1420_torfit_comp.eps>
+Overfull \hbox (0.80466pt too wide) in paragraph at lines 1290--1296
+ [] 
+ []
+
+[82]
+
+LaTeX Warning: Text page 83 contains only floats.
+
+[83] [84]
+File: chapters/applicationOfNumericalModel/figures/intAndPAJ2124alpha2zeta2.eps
+ Graphic file (type eps)
+
+<chapters/applicationOfNumericalModel/figures/intAndPAJ2124alpha2zeta2.eps>
+
+LaTeX Warning: Float too large for page by 46.99425pt on input line 1420.
+
+File: chapters/applicationOfNumericalModel/figures/J2124-3358Map.eps Graphic fi
+le (type eps)
+<chapters/applicationOfNumericalModel/figures/J2124-3358Map.eps> [85] [86]
+[87] [88] [89]) [90]
+\openout2 = `chapters/multiWaveLength/main.aux'.
+
+ (./chapters/multiWaveLength/main.tex
+Chapter 7.
+[91
+
+
+
+]
+(./chapters/multiWaveLength/sections/characterizationOfJ0248+6021andJ2240+5832.
+tex
+Overfull \hbox (8.85463pt too wide) in paragraph at lines 5--5
+[]\OT1/cmr/m/it/12 This sec-tion is based on work done for ``PSRs J0248$\OT1/cm
+r/m/n/12 +$\OT1/cmr/m/it/12 6021 and J2240$\OT1/cmr/m/n/12 +$\OT1/cmr/m/it/12 5
+832:
+ []
+
+File: chapters/multiWaveLength/figures/J0248+6021_catalog_lightcurve.eps Graphi
+c file (type eps)
+<chapters/multiWaveLength/figures/J0248+6021_catalog_lightcurve.eps>
+File: chapters/multiWaveLength/figures/J2240+5832_catalog_lightcurve.eps Graphi
+c file (type eps)
+
+<chapters/multiWaveLength/figures/J2240+5832_catalog_lightcurve.eps>
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 9--22
+[][] [] 
+ []
+
+File: chapters/multiWaveLength/figures/J0244Alpha46Zeta52Offset2.53133ANDJ2238A
+lpha108Zeta123Offsetneg45.818.ps Graphic file (type eps)
+
+<chapters/multiWaveLength/figures/J0244Alpha46Zeta52Offset2.53133ANDJ2238Alpha1
+08Zeta123Offsetneg45.818.ps>
+File: chapters/multiWaveLength/figures/New_J0248_OGTPCSL.eps Graphic file (type
+ eps)
+
+<chapters/multiWaveLength/figures/New_J0248_OGTPCSL.eps>
+File: chapters/multiWaveLength/figures/New_J2240_OGTPCSL.eps Graphic file (type
+ eps)
+
+<chapters/multiWaveLength/figures/New_J2240_OGTPCSL.eps> [92] [93] [94]
+[95]) (./chapters/multiWaveLength/sections/highMagneticFeildPulsars.tex
+Overfull \hbox (17.03767pt too wide) in paragraph at lines 2--2
+[]\OT1/cmr/bx/n/17.28 PSR J1119$\OMS/cmsy/m/n/17.28 ^^@$\OT1/cmr/bx/n/17.28 612
+7: Char-ac-ter-i-za-tion a High Mag-
+ []
+
+File: chapters/multiWaveLength/figures/HBP_fig3_rev.eps Graphic file (type eps)
+
+<chapters/multiWaveLength/figures/HBP_fig3_rev.eps>
+File: chapters/multiWaveLength/figures/HBP_fig4_rev.eps Graphic file (type eps)
+
+
+<chapters/multiWaveLength/figures/HBP_fig4_rev.eps>
+
+LaTeX Warning: Float too large for page by 75.06024pt on input line 47.
+
+[96]) (./chapters/multiWaveLength/sections/characteristicsOfJ1513-5908.tex
+[97] [98]
+File: chapters/multiWaveLength/figures/intAndPAJ1513alpha153zeta133.eps Graphic
+ file (type eps)
+ <chapters/multiWaveLength/figures/intAndPAJ1513alpha153zeta133.eps>
+File: chapters/multiWaveLength/figures/J1513-5908Map.eps Graphic file (type eps
+)
+
+<chapters/multiWaveLength/figures/J1513-5908Map.eps>
+File: chapters/multiWaveLength/figures/BJ1513_w10.eps Graphic file (type eps)
+
+<chapters/multiWaveLength/figures/BJ1513_w10.eps>
+Overfull \hbox (1.60767pt too wide) in paragraph at lines 40--53
+ [] 
+ []
+
+File: chapters/multiWaveLength/figures/J1513_lc.eps Graphic file (type eps)
+<chapters/multiWaveLength/figures/J1513_lc.eps> [99] [100] [101] [102] [103])
+(./chapters/multiWaveLength/sections/characteristicsOfJ0737-3039A.tex [104]
+File: chapters/multiWaveLength/figures/figure3-0737.eps Graphic file (type eps)
+
+
+<chapters/multiWaveLength/figures/figure3-0737.eps>
+File: chapters/multiWaveLength/figures/figure4-0737.eps Graphic file (type eps)
+
+
+<chapters/multiWaveLength/figures/figure4-0737.eps>
+File: chapters/multiWaveLength/figures/figure5-0737.eps Graphic file (type eps)
+
+
+<chapters/multiWaveLength/figures/figure5-0737.eps> [105]
+
+LaTeX Warning: Text page 106 contains only floats.
+
+[106] [107] [108]) (./chapters/multiWaveLength/sections/subLuminous.tex
+Overfull \hbox (15.18768pt too wide) in paragraph at lines 1--1
+[]\OT1/cmr/bx/n/17.28 Population Study: Char-ac-ter-iz-ing Sub-luminous
+ []
+
+[109]
+File: chapters/multiWaveLength/figures/f2.eps Graphic file (type eps)
+ <chapters/multiWaveLength/figures/f2.eps>
+File: chapters/multiWaveLength/figures/f3cor_a.eps Graphic file (type eps)
+
+<chapters/multiWaveLength/figures/f3cor_a.eps>
+File: chapters/multiWaveLength/figures/f3cor_b.eps Graphic file (type eps)
+
+<chapters/multiWaveLength/figures/f3cor_b.eps>
+File: chapters/multiWaveLength/figures/f3cor_c.eps Graphic file (type eps)
+
+<chapters/multiWaveLength/figures/f3cor_c.eps>
+File: chapters/multiWaveLength/figures/f3cor_d.eps Graphic file (type eps)
+
+<chapters/multiWaveLength/figures/f3cor_d.eps>
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 43--69
+[][] []
+ []
+
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 43--69
+[] [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 47.51396pt on input line 70.
+
+File: chapters/multiWaveLength/figures/f4cor_a.eps Graphic file (type eps)
+<chapters/multiWaveLength/figures/f4cor_a.eps>
+File: chapters/multiWaveLength/figures/f4cor_b.eps Graphic file (type eps)
+
+<chapters/multiWaveLength/figures/f4cor_b.eps>
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 73--89
+[][] [] 
+ []
+
+[110] [111] [112] [113])) [114] [115]
+\openout2 = `chapters/inwardDirectedPhotons/main.aux'.
+
+
+(./chapters/inwardDirectedPhotons/main.tex
+Chapter 8.
+(./chapters/inwardDirectedPhotons/sections/inwardEmissionOfJ1057-5226.tex
+Overfull \hbox (34.03569pt too wide) in paragraph at lines 1--1
+\OT1/cmr/bx/n/17.28 Us-ing Ra-dio Po-lar-iza-tion Data of PSR J1057$\OMS/cmsy/m
+/n/17.28 ^^@$\OT1/cmr/bx/n/17.28 5226 
+ []
+
+
+Overfull \hbox (8.13399pt too wide) in paragraph at lines 8--23
+\OT1/cmr/m/n/12 directed pho-tons to un-der-stand the com-plex ra-dio po-lar-iz
+a-tion data of PSR J1057$\OMS/cmsy/m/n/12 ^^@$\OT1/cmr/m/n/12 5226
+ []
+
+[116
+
+
+
+] [117]
+File: chapters/inwardDirectedPhotons/figures/magnetosphere.eps Graphic file (ty
+pe eps)
+ <chapters/inwardDirectedPhotons/figures/magnetosphere.eps> [118]
+[119] [120]
+Overfull \hbox (2.42271pt too wide) in paragraph at lines 226--235
+\OT1/cmr/m/n/12 ``notched" pul-sars (McLaugh-lin & Rankin, 2004) be-cause in ra
+-dio in-ten-sity two notches
+ []
+
+[121]
+File: chapters/inwardDirectedPhotons/figures/testCloseUp3a.eps Graphic file (ty
+pe eps)
+ <chapters/inwardDirectedPhotons/figures/testCloseUp3a.eps> [122] [123]
+[124]
+File: chapters/inwardDirectedPhotons/figures/intAndPAJ1057alpha77zeta50V2.eps G
+raphic file (type eps)
+
+<chapters/inwardDirectedPhotons/figures/intAndPAJ1057alpha77zeta50V2.eps>
+
+LaTeX Warning: Float too large for page by 17.02841pt on input line 429.
+
+File: chapters/inwardDirectedPhotons/figures/J1057-5226Map.eps Graphic file (ty
+pe eps)
+<chapters/inwardDirectedPhotons/figures/J1057-5226Map.eps>
+Overfull \hbox (11.04126pt too wide) in paragraph at lines 434--444
+ [] 
+ []
+
+File: chapters/inwardDirectedPhotons/figures/J1057-5226Map323.eps Graphic file 
+(type eps)
+<chapters/inwardDirectedPhotons/figures/J1057-5226Map323.eps>
+
+LaTeX Warning: Float too large for page by 41.59373pt on input line 473.
+
+
+Overfull \hbox (4.58934pt too wide) in paragraph at lines 494--495
+ [] 
+ []
+
+[125] [126] [127] [128] [129] [130]
+Overfull \hbox (7.91797pt too wide) in paragraph at lines 651--651
+[]\OT1/cmr/bx/n/14.4 Combining $\OML/cmm/m/it/14.4 ^^M$\OT1/cmr/bx/n/14.4 -Ray 
+Fit-ting with Ra-dio Po-lar-iza-tion Model 
+ []
+
+[131]
+File: chapters/inwardDirectedPhotons/figures/plotBestFits.ps Graphic file (type
+ eps)
+ <chapters/inwardDirectedPhotons/figures/plotBestFits.ps>
+File: chapters/inwardDirectedPhotons/figures/plotCombinedw60w150.ps Graphic fil
+e (type eps)
+
+<chapters/inwardDirectedPhotons/figures/plotCombinedw60w150.ps> [132] [133]
+[134] [135] [136] [137] [138])
+(./chapters/inwardDirectedPhotons/sections/inwardEmissionOfJ1705-1906.tex
+Overfull \hbox (34.03569pt too wide) in paragraph at lines 1--1
+\OT1/cmr/bx/n/17.28 Us-ing Ra-dio Po-lar-iza-tion Data of PSR J1705$\OMS/cmsy/m
+/n/17.28 ^^@$\OT1/cmr/bx/n/17.28 1906 
+ []
+
+[139] [140]
+File: chapters/inwardDirectedPhotons/figures/mapB1702allForward.eps Graphic fil
+e (type eps)
+ <chapters/inwardDirectedPhotons/figures/mapB1702allForward.eps>
+File: chapters/inwardDirectedPhotons/figures/mapB1702SinglePole.eps Graphic fil
+e (type eps)
+
+<chapters/inwardDirectedPhotons/figures/mapB1702SinglePole.eps>
+File: chapters/inwardDirectedPhotons/figures/mapB1702IPBackward.eps Graphic fil
+e (type eps)
+
+<chapters/inwardDirectedPhotons/figures/mapB1702IPBackward.eps> [141]))
+[142] [143] [144] [145]
+\openout2 = `chapters/outlook/main.aux'.
+
+ (./chapters/outlook/main.tex
+Chapter 9.
+[146
+
+
+
+] [147] [148] [149]) [150]
+\openout2 = `bibliography.aux'.
+
+ (./bibliography.tex (./hcraigThesisV1.bbl
+[151
+
+
+
+] [152] [153] [154] [155] [156])) [157] (./hcraigThesisV1.aux
+(./extras/abstract.aux) (./extras/dedication.aux) (./extras/acknowledgement.aux
+) (./chapters/roadMap/main.aux) (./chapters/pulsarAnatomy/main.aux)
+(./chapters/radioDataAnalyticModels/main.aux)
+(./chapters/numericalModel/main.aux) (./chapters/BCWlimitations/main.aux)
+(./chapters/applicationOfNumericalModel/main.aux)
+(./chapters/multiWaveLength/main.aux)
+(./chapters/inwardDirectedPhotons/main.aux) (./chapters/outlook/main.aux)
+(./bibliography.aux)) ) 
+Here is how much of TeX's memory you used:
+ 3053 strings out of 493634
+ 48791 string characters out of 3143000
+ 111977 words of memory out of 3000000
+ 6127 multiletter control sequences out of 15000+200000
+ 16842 words of font info for 59 fonts, out of 3000000 for 9000
+ 831 hyphenation exceptions out of 8191
+ 27i,12n,35p,403b,417s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on hcraigThesisV1.dvi (172 pages, 467720 bytes).

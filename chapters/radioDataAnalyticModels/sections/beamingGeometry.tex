@@ -1,0 +1,83 @@
+\section{Beaming Geometry}
+\label{sec:beamingGeometry}
+Assuming a beam of emission centered on the 
+magnetic axis, the
+relationship between pulse width
+in phase and the opening angle of the
+cone structure where emission originates
+can be derived in closed form.
+The cone is centered on the magnetic 
+axis defined by 
+
+\begin{equation}
+\label{equ:m}
+\hat{m}=\cos{(\phi)} \sin{(\alpha)} \hat{x} + \sin{(\phi)} \sin{(\alpha)} \hat{y} + \cos{(\alpha)} \hat{z}
+\end{equation}
+where $\phi$ is the phase of the pulsar
+as it rotates about $\hat{\Omega}=\hat{z}$.
+The pulse width is $W$ and thus
+for a symmetric cone, the 
+pulse is seen between $\phi=-W/2$ and $\phi=W/2$
+in phase.
+The angle between $\hat{m}$ and the
+line of sight at the maximums ($\phi=-W/2$ and $\phi=W/2$) will also be the opening
+angle.  The line of sight is given by 
+\begin{equation}
+\hat{n}=\sin{\zeta} \hat{x}+\cos{\zeta} \hat{z}
+\end{equation}
+and the relation between opening angle and 
+pulse width is
+\begin{equation}
+\label{equ:ndotm}
+\hat{n}\cdot\hat{m}=\cos{\Gamma}=\sin{\zeta} \cos{W/2} \sin{\alpha} + \cos{\zeta} \cos{\alpha} 
+.\end{equation}
+This equation makes no assumptions about the form of the magnetic field lines.
+The angle $\alpha$ is between the spin axis and the magnetic axis and the
+angle $\zeta$ is between the spin axis and the line of sight.
+
+We can further relate the pulse width to emission height for a
+dipole magnetic field.  The last closed field lines
+which define the emission cone for a simple dipole
+have the form 
+\begin{equation}
+\label{equ:dipole}
+\mathbf{r}=\sin^3\theta \hat{x} + \sin^2\theta \cos{\theta} \hat{z}
+\end{equation}
+\begin{center}
+and
+\end{center}
+\begin{equation}
+R=|\mathbf{r}|=\sin^2\theta
+\end{equation}
+in polar coordinates where $R$ is the emission 
+altitude measured in $R_{\rm LC}$, light cylinder
+radius.
+In this coordinate system, $\hat{m}=\hat{z}$.
+
+The angle $\Gamma$ between $\hat{n}$ and $\hat{m}$
+will be approximately the angle between 
+\begin{equation}
+\hat{T}=\frac{d\mathbf{r}/d\theta}{|d\mathbf{r}/d\theta|}
+\end{equation}
+(the curvature of $\mathbf{r}$) and $\hat{m}$.
+This is actually a far field approximation 
+but is appropriate because 
+the observer is very far from the pulsar.
+
+We can then relate the opening
+angle to the altitude using Equation \ref{equ:dipole}.
+Again using $\hat{m}=\hat{z}$, Equation \ref{equ:dipole} and Equation \ref{equ:m}:
+\begin{equation}\hat{T}\cdot\hat{m}=\frac{2-3\sin^2\theta}{\sqrt{4-3\sin^2\theta}}.\end{equation}
+
+Using $R=\sin^2\theta$ and approximating $R$ as small, 
+\begin{equation}\hat{T}\cdot\hat{m}=1-9R/8.\end{equation}
+
+Further using $\hat{T}\cdot\hat{m}\approx\cos{\Gamma}\approx 1-\Gamma^2/2$ and Equation \ref{equ:ndotm},
+we get:
+\begin{equation}
+R=\frac{4}{9}\arccos^2\left[\sin{\zeta}\cos{\frac{W}{2}}\sin{\alpha}+\cos{\zeta}\cos{\alpha}\right]
+.
+\end{equation}
+
+This equation then relates the width of the intensity pulse to the altitude of
+emission.

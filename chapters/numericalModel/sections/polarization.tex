@@ -1,0 +1,101 @@
+\section{Polarization Calculation}
+\label{sec:numericalPolarization}
+
+Following a particle along a field line is
+important for tracking emission from a particular zone
+on the cap usually expressed as a function of $w$,
+the fractional distance between the magnetic
+pole and the edge of the open-zone cap.
+It is also important for calculating the
+polarization position angle ($\psi$) of a photon emitted
+at a given location.
+The position angle is the angle between the spin
+axis and the acceleration vector projected onto viewing plane.
+In order to calculate the position angle of the emission,
+the acceleration of the 
+particle which emitted the curvature radiation must be calculated.
+We must calculate the properties of the charged particle
+one time step forward.
+
+After a time step, the new magnetic 
+field at the new location is $\vec{B'}$ (calculated from Equation \ref{eq:magField}).
+But in the mean time, our reference frame (the pulsar) has rotated by $\Delta \theta$.
+$\Omega=\Delta \theta / \Delta t = 1$ so $\Delta \theta = 1/25000$
+Because of this rotation, the point is actually located at:
+
+\begin{equation}
+\left( \begin{array}{c}
+x'' \\
+y'' \\
+z'' \end{array} \right)
+\qquad
+ \begin{array}{c}
+  \\
+= \\
+  \end{array}
+\qquad
+\left( \begin{array}{ccc}
+\cos\Delta\theta & -\sin\Delta\theta & 0 \\
+\sin\Delta\theta &  \cos\Delta\theta & 0 \\
+0                & 0                 & 1 \end{array} \right)
+\qquad
+\left( \begin{array}{c}
+x' \\
+y' \\
+z' \end{array} \right)
+\qquad
+ \begin{array}{c}
+  \\
+= \\
+  \end{array}\end{equation}
+\begin{equation}
+\qquad
+\left( \begin{array}{c}
+x'\cos\Delta\theta - y'\sin\Delta\theta \\
+x'\sin\Delta\theta - y'\cos\Delta\theta \\
+z' \end{array} \right). \end{equation}
+
+Also the magnetic field is now
+
+\begin{equation}
+\begin{array}{c}
+             \\
+\vec{B''}= \\
+             \end{array}
+\qquad
+\left( \begin{array}{ccc}
+\cos\Delta\theta & -\sin\Delta\theta & 0 \\
+\sin\Delta\theta &  \cos\Delta\theta & 0 \\
+0                & 0                 & 1 \end{array} \right)
+\qquad
+\begin{array}{c}
+             \\ 
+\vec{B'} \\
+             \end{array}. \end{equation}
+
+Again, the co-rotation velocity is $\vec{v}_{\rm t}''=<-y'',x'',0>$ and
+the magnitude of the velocity from the magnetic field at this new location is
+\begin{equation}
+|\vec{v}_B''|=-\vec{v}_{\rm t}'' \cdot \hat{v}_B'' + \sqrt{(\vec{v}_B'' \cdot \hat{v}_B'')^2 - v_{\rm t}''^2 +1}
+.\end{equation}
+As before, we can calculate the total velocity; using this and the previous
+velocity, we can calculate the acceleration of a particle. 
+The change in the velocity is given by  $\Delta t \vec{a} = \vec{v}_{\rm tot}'' - \vec{v}_{\rm tot}$.
+
+As stated earlier, the position angle is the angle between the spin axis and the acceleration vector projected onto a viewing
+plane.
+The projection of the acceleration vector onto the 
+viewing plane in the direction of the velocity is given as 
+the vector rejection of $\vec{a}$ in direction $<v_x,v_y,v_z>$.
+The vector rejection is given as:
+\begin{equation}\vec{p}_a=\vec{a} - (\vec{a} \cdot <v_x,v_y,v_z>) <v_x,v_y,v_z>.\end{equation}
+
+Similarly, the project of $<0,0,1>$, the spin axis $\vec{\Omega}$, onto viewing plane is given as
+\begin{equation}\vec{p}_{001}= <0,0,1> -(<0,0,1> \cdot <v_x,v_y,v_z>) <v_x,v_y,v_z> = <-v_z v_x,-v_z v_y,1-v_z v_z>.\end{equation}
+
+The projection vectors are normalized and the angle between them simply gives the polarization position angle
+of that photon:
+\begin{equation}\psi=\arccos(||\vec{p}_a|| \cdot ||\vec{p}_{001}||).\end{equation}
+Each position angle is a function of $\alpha$, $\zeta$, and $\phi$.  
+If $\alpha$ and $\zeta$ are constant and $\psi$ is plotted versus $\phi$,
+the result is the polarization sweep versus the pulsar phase.

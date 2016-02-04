@@ -1,0 +1,85 @@
+\contentsline {chapter}{Abstract}{iv}
+\contentsline {chapter}{}{v}
+\contentsline {chapter}{Acknowledgement}{vi}
+\contentsline {chapter}{List of Tables}{xiii}
+\contentsline {chapter}{List of Figures}{xiv}
+\contentsline {chapter}{\numberline {1}Roadmap}{1}
+\contentsline {chapter}{\numberline {2}Pulsar Anatomy}{4}
+\contentsline {section}{\numberline {2.1}The Origin of Pulsars and Supernova Remnants}{4}
+\contentsline {section}{\numberline {2.2}Pulsar Wind Nebula}{7}
+\contentsline {section}{\numberline {2.3}Pulsar Magnetosphere}{8}
+\contentsline {section}{\numberline {2.4}Neutron Star and Equation of State}{10}
+\contentsline {section}{\numberline {2.5}Pulsar Populations and Age}{11}
+\contentsline {chapter}{\numberline {3}Introduction: Radio and Pulsars}{13}
+\contentsline {section}{\numberline {3.1}Polarization}{13}
+\contentsline {section}{\numberline {3.2}Effects of Interstellar Medium}{15}
+\contentsline {section}{\numberline {3.3}Beaming Geometry}{17}
+\contentsline {section}{\numberline {3.4}Rotating Vector Model}{19}
+\contentsline {chapter}{\numberline {4}Numerical Models of Pulsar Magnetosphere}{21}
+\contentsline {section}{\numberline {4.1}Magnetic Field Line Calculation}{21}
+\contentsline {subsection}{\numberline {4.1.1}A Point in the Magnetosphere}{22}
+\contentsline {subsection}{\numberline {4.1.2}Velocity and Motion of a Charged Particle}{23}
+\contentsline {subsection}{\numberline {4.1.3}Projection onto the $\zeta $--$\phi $ Viewing Plane}{24}
+\contentsline {section}{\numberline {4.2}Polarization Calculation}{24}
+\contentsline {section}{\numberline {4.3}Numerical (Geometrically-Based) Modeling in Other Wavelengths}{26}
+\contentsline {subsection}{\numberline {4.3.1}Pulsar X-Ray Wind Tori Model}{26}
+\contentsline {subsection}{\numberline {4.3.2}Pulsar $\gamma $-Ray Light Curve Model}{28}
+\contentsline {chapter}{\numberline {5}Phenomenological Altitude Limits of RVM}{30}
+\contentsline {section}{\numberline {5.1}Introduction}{30}
+\contentsline {section}{\numberline {5.2}Simulation Model Assumptions}{33}
+\contentsline {subsection}{\numberline {5.2.1}Estimating $\phi =0$}{34}
+\contentsline {subsection}{\numberline {5.2.2}`Fitting' an RVM curve}{36}
+\contentsline {section}{\numberline {5.3}Correcting for Bias in the RVM Height Estimates}{37}
+\contentsline {section}{\numberline {5.4}Height Calculation from Shift in $\psi $}{44}
+\contentsline {section}{\numberline {5.5}Pulse Width Dependence on Emission Height}{46}
+\contentsline {section}{\numberline {5.6}Conclusions; Examples from Literature}{47}
+\contentsline {chapter}{\numberline {6}Energetic Pulsars}{50}
+\contentsline {section}{\numberline {6.1}Introduction}{51}
+\contentsline {section}{\numberline {6.2}Rotating Vector Model and Beyond}{53}
+\contentsline {section}{\numberline {6.3}Adding Physical Ingredients}{57}
+\contentsline {subsection}{\numberline {6.3.1}Multiple Altitudes}{57}
+\contentsline {subsection}{\numberline {6.3.2}Interstellar Scattering}{59}
+\contentsline {subsection}{\numberline {6.3.3}Orthogonal Mode Jumps in the Context of Multiple Altitudes and Interstellar Scattering}{59}
+\contentsline {section}{\numberline {6.4}Fitting Methodology}{61}
+\contentsline {subsection}{\numberline {6.4.1}Y-Point Considerations}{61}
+\contentsline {section}{\numberline {6.5}Application (and Illustration) with Individual Pulsars}{63}
+\contentsline {subsection}{\numberline {6.5.1}PSR J0023$+$0923: Nonorthogonal Jumps with Multiple Altitudes}{63}
+\contentsline {subsection}{\numberline {6.5.2}PSR J1024$-$0719: Kinks with Multiple Altitudes}{69}
+\contentsline {subsection}{\numberline {6.5.3}PSR J1057$-$5226: Y-Point and Finite Altitude}{70}
+\contentsline {subsection}{\numberline {6.5.4}PSR J1744$-$1134: Multiple Altitudes with Single Versus Double Pole}{76}
+\contentsline {subsection}{\numberline {6.5.5}PSR J1420$-$6048: Multiple Altitudes and Interstellar Scattering}{78}
+\contentsline {subsubsection}{X-Ray Torus of PSR J1420$-$6048}{82}
+\contentsline {subsection}{\numberline {6.5.6}PSR J2124$-$3358: A Complex Example}{85}
+\contentsline {section}{\numberline {6.6}Conclusion}{88}
+\contentsline {chapter}{\numberline {7}Characterization}{91}
+\contentsline {section}{\numberline {7.1}PSR J0248$+$6021 and PSR J2240$+$5832: Characterizing Young Pulsars with RVM}{92}
+\contentsline {section}{\numberline {7.2}PSR J1119$-$6127: Characterization a High Magnetic Field Pulsar with Single-Altitude Model}{96}
+\contentsline {section}{\numberline {7.3}PSR J1513$-$5908: Characterizing a Soft $\gamma $-ray Pulsar with Single-Altitude Model}{99}
+\contentsline {section}{\numberline {7.4}PSR J0737$-$3039A: Characterizing a Double Pulsar System with Finite-Altitude Model}{105}
+\contentsline {section}{\numberline {7.5}Population Study: Characterizing Sub-luminous $\gamma $-Ray Pulsars Using Polarization}{109}
+\contentsline {section}{\numberline {7.6}Conclusions}{114}
+\contentsline {chapter}{\numberline {8}Inward-Directed Photons}{116}
+\contentsline {section}{\numberline {8.1}Exploring Inward-Directed Photon Emission Using Radio Polarization Data of PSR J1057$-$5226}{116}
+\contentsline {subsection}{\numberline {8.1.1}Introduction}{116}
+\contentsline {subsection}{\numberline {8.1.2}Previous Work with PSR J1057$-$5226}{118}
+\contentsline {subsection}{\numberline {8.1.3}Previous Work in Bidirectional Emission}{120}
+\contentsline {subsection}{\numberline {8.1.4}Modeling Data of PSR J1057$-$5226}{122}
+\contentsline {subsubsection}{Fitting Procedure for Polarization Position Angle Data}{122}
+\contentsline {subsubsection}{Fitting PSR J1057$-$5226 with Inward-Directed Photon Constraints}{125}
+\contentsline {subsubsection}{Fitting PSR J1057$-$5226 with Outward-Directed Photon Emission}{130}
+\contentsline {subsubsection}{Visualizing the Pulsar Configuration}{131}
+\contentsline {subsection}{\numberline {8.1.5}Combining $\gamma $-Ray Fitting with Radio Polarization Model}{131}
+\contentsline {subsubsection}{$\gamma $-Ray Model Method}{132}
+\contentsline {subsubsection}{$\gamma $-Ray Model Results}{132}
+\contentsline {subsection}{\numberline {8.1.6}Discussion and Conclusions}{136}
+\contentsline {subsubsection}{Comparison to \cite {weltevrede2007main}}{136}
+\contentsline {subsubsection}{Comparison to \cite {weltevrede2009mapping}}{137}
+\contentsline {subsubsection}{Comparison to \cite {weltevrede2012phase}}{138}
+\contentsline {subsubsection}{Summary}{139}
+\contentsline {section}{\numberline {8.2}Exploring Inward-Directed Photon Emission Using Radio Polarization Data of PSR J1705$-$1906}{140}
+\contentsline {subsection}{\numberline {8.2.1}Past Studies}{140}
+\contentsline {subsection}{\numberline {8.2.2}Polarization Analysis}{141}
+\contentsline {chapter}{\numberline {9}Outlook and Perspective}{146}
+\contentsline {section}{\numberline {9.1}Next Steps}{146}
+\contentsline {section}{\numberline {9.2}Summary of Conclusions}{149}
+\contentsline {chapter}{Bibliography}{151}

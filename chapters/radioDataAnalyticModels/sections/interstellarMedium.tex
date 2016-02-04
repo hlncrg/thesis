@@ -1,0 +1,92 @@
+\section{Effects of Interstellar Medium} \label{sec:interstellarScattering}
+The space between us and pulsars is not empty but is full
+of ionized medium that effects electromagnetic waves.
+Such medium modifies the signal in several ways which we can
+quantify.
+
+The dispersion measure is the total density of free electrons ($N(l)$) over the intervening space that the signal from the pulsar
+travels:
+\begin{equation} DM=\int_0^L N(l) \mathrm{d}l. \end{equation}
+
+The dispersion measure is related to the frequency of the emission ($\nu$) and the time delay of the emission ($t$):
+
+\begin{equation}DM_{[\textrm{cm}^{-3}\textrm{pc}]}=2.410\times10^{-4} \textrm{ } t_{[\textrm{s}]}\textrm{ } \nu^2_{[\textrm{MHz}]}.\end{equation}
+
+This formula is useful for calculating the expected time delay between frequencies:
+
+\begin{equation}
+\Delta t_{[\textrm{s}]}= \frac{DM_{[\textrm{cm}^{-3}\textrm{pc}]}}{2.410\times 10^{-4}} \left\{  \frac{1}{\nu^2_{2 [\textrm{MHz}]}} - \frac{1}{\nu^2_{1 \lbrack\textrm{MHz}\rbrack}}  \right\}.\end{equation}
+
+In particular, we wished to quantify the time delay in PSR J1420$-$6048 because the fit was simultaneous
+in two frequencies, 10cm and 20cm (Section \ref{sec:J1420}).  
+In the end, we found that any time delay due to dispersion
+was overpowered by our uncertainty in phase. (See \cite{rohlfs2000tools} for a particularly well formulated
+presentation of the dispersion measurement calculation.)
+
+Another effect of interstellar medium on measurements is interstellar scattering.
+The scattering of emission in the medium results in multipath propagation.  
+The effects of interstellar scattering manifest themselves in pulsar data as
+a broadening of the trailing end of the intensity pulse and a flattening of the polarization data versus
+phase.
+
+This scattering effect is mathematically described as a convolution of the unscattered
+Stokes parameters with a scattering kernel:
+
+\begin{equation}
+\begin{array}{l}
+I^{\rm scat}=\int I(\phi(t')) g(t-t') dt,\\
+Q^{\rm scat}=\int Q(\phi(t')) g(t-t') dt,\\
+U^{\rm scat}=\int U(\phi(t')) g(t-t') dt,\\
+V^{\rm scat}=\int V(\phi(t')) g(t-t') dt.
+\end{array}
+\end{equation}
+This relation is used for model $Q$ and $U$
+in Chapter \ref{chapter:tacklingPolarization}.
+
+Analytical scattering kernels exist assuming various distributions
+of interstellar medium.  
+The scattering kernel assuming a thin scattering screen 
+halfway between source and observer is given by 
+
+\begin{equation}\label{eq:gts2}
+g_{ts}(t-t')=\left\{
+\begin{array}{lr}
+0,                       & t-t' < 0 \\
+e^{-(t-t') / \tau_{\rm s}},  & t-t' > 0
+\end{array}
+\right.
+\end{equation}
+\citep{williamson1972pulse,williamson1973pulse}.
+The scattering kernel assuming a thick screen near the
+source is given by 
+\begin{equation}
+g_{\rm ths}(t-t')=\left\{
+\begin{array}{lr}
+0,                       & t-t' < 0 \\
+\sqrt{\frac{\pi \tau_{\rm s}}{4t^3}} e^{-\pi^2\tau_{\rm s}/16t},  & t-t' > 0.
+\end{array}
+\right.
+\end{equation}
+The scattering kernel assuming uniform medium is given by
+\begin{equation}
+g_{\rm um}(t-t')=\left\{
+\begin{array}{lr}
+0,                       & t-t' < 0 \\
+\sqrt{\frac{\pi^5 \tau_{\rm s}^3}{8t^5}} e^{-\pi^2\tau_{\rm s}/4t},  & t-t' > 0.
+\end{array}
+\right.
+\end{equation}
+The variable $\tau_{\rm s}$ is a characteristic scattering time.
+The simplest kernel $g_{\rm ts}$ is used in Chapter \ref{chapter:tacklingPolarization}  in 
+modeling scattering.
+
+Finally, pulsar polarization data is Faraday rotated
+by interstellar medium.  Faraday rotation is a powerful
+tool for probing interstellar scattering but for us it is 
+a nuisance to be removed from the data.  The degree of Faraday rotation
+is related to frequency and can be removed by comparing data
+from multiple frequencies.  Considering that $\Delta\psi$ is often
+treated as a nuisance parameter, the accuracy of this removal
+is not very important.  
+
+

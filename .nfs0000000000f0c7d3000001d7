@@ -1,0 +1,146 @@
+\chapter[Pulsar Anatomy]{Pulsar Anatomy}
+
+
+\section{pulsars}
+
+Pulsars are objects of extremes.
+https://www.nrao.edu/pr/2006/mspulsar/
+The fastest neutron star is PSR J1748-2446ad
+ 
+
+\subsection{The origin of pulsars and Supernova remnants}
+
+A star will eventually collapse under its own gravity once it has exhausted its energy source.  
+If the star is massive enough, such a transition will come about violently in a 
+supernova explosion where most of the mass is expelled in a shell around the position
+star once was. This glowing mass known as a supernova remnent.  The remander of the 
+star collapses further either into a blackhole or a neutron star depending on the 
+original mass of the star.  Since most of the angular momentum is conserved, the
+much smaller, denser neutron star has a very small rotational period.
+
+
+Pulsars originate from supernova explosions 
+Supernova remnants exist for 100 to 1000 years.
+
+Conservation of angular momentum and magnetic flux:
+
+$ 
+M R^2_0 \Omega_0=M R^2 \Omega
+P \sim (R/R_0) P_0 \sim 
+B \sim (R/R_0) B_0 \sim 10^10-10^12 Gauss
+R^2_0 B_0 = R^2 B
+$
+
+
+2) What is the fastest spinning pulsar?
+
+The rotational period of pulsars range from a couple of milliseconds to 
+several seconds.  For instance, J$1748-2446$ab has a period of $1.395$ms \cite{hessels2006radio}.
+
+3) Highest magnetic field
+
+The magnetic fields of pulsars are around $10^10$ to $10^12$ Gauss.
+
+Magnetars, neutron stars with the extreme magnetic field, are said to have
+magnetic fields of up to $10^15$ Gauss.  (The magnetic field of the Earth is 
+around $\sim .4$ Gauss and the magnetic field of the sun is around $\sim 1$ Gauss, for reference.) 
+
+4) most massive
+
+One of the most massive pulsars is J$1311-3430$ which is said to have a mass
+of $2.15$ to $2.7M_{\odot}$ (solar mass) from spectroscopic measurements \cite{romani2012psr}.
+
+5) radius
+
+The radius of a neutron star is around $10$km.  (The circumference is around the distance from
+San Fransisco to San Jose.)
+
+6) When was polarization first observed?
+
+William Hilter and John Hall first observed polarization of starlight in 1949 \cite{hiltner1949polarization,hall1949observations }.  
+Polarization was soon linked to magnetic field lines of the galaxy by Leverrett Davis, Jr and Jesse Greenstein \cite{davis1951polarization}
+
+7) First prediction of neutron stars
+
+Neutron stars were first predicted as a result of 
+supernoveas by \cite{baade1934super}.  
+
+8) First observation of pulsars
+
+Although the first supernovea was observed thousands of years ago,
+the first pulsations (in radio) from a pulsars were not observed until 
+relativily recently in 1967 to 1968.
+
+9) First explanation of pulsars
+
+The first correct and complete explination of pulsars and their
+connection to neutrons followed rapidly by Gold and Pacini
+(\cite{pacini1967energy, gold1968rotating, pacini1968rotating}).
+
+10) How many pulsars are there vs. neutron stars?
+
+The number of galactic neutron stars is $\sim10^9$ although 
+how many are actually visible from earth depends on a number of caveats \cite{colpi1998elusiveness}.
+The number of radio-detected pulsars is in the low thousands and the number of energetic $\gamma$-ray
+detected pulsars is in the low hundreds.
+
+
+
+Why do we see pulsars at all?
+pulsars vs. black holes 
+
+\subsection{pulsar wind nebula}
+
+
+
+\subsection{pulsar magnetosphere}
+
+synchrotron lifetime
+
+
+
+Goldreich-Julian model
+Force free model:
+$F=E+\Omega \times r / c \times B = 0 $
+Then density$1/(4 \pi) \div E = - \Omega \dot B / (2 \pi c)$
+The charge rearranges due to this uncanceled rotation-induced EMF.
+
+The magnetic field is given by 
+$\vec{B}=-( \vec{m(t_r)} +r\dot{\vec{m(t_r)}} + r^2\ddot{\vec{m(t_r)}}  )/r^3 + \^{r} \left\{\^{r} \cdot (\vec{m(t_r)} +r\dot{3\vec{m(t_r)}} + 3r^2\ddot{\vec{m(t_r)}})/r^3  \right\} $
+
+
+$\vec{m(t_r)}=m(\sin{(\alpha)} \cos{(t_r \omega)} \^{x}+ \sin{(\alpha)}) \sin{(t_r \omega)} \^{y} \cos{(\alpha)} \^{z}$
+cite Kaburaki 1980
+retarded time $t_r=t-r/c$
+and $m$ is dipole magnetic moment 
+
+At polar cap strong magnetic field:
+$\gamma + B -> e^+ + e^- $
+
+\begin{figure}[t!!]
+\vskip .39\textheight
+\special{psfile=code/pulsarAnatomy.eps hoffset=-60 voffset=-110 vscale=60 hscale=60}
+\begin{center}
+\caption{\label{fig:PlotJ0023intPA}
+figure here
+}
+\end{center}
+\vskip -0.2truecm
+\end{figure}
+
+
+Outer gap:
+
+Synchrotorn lifetime of electron Ts=5.1e8/(\gamma B^2) s
+\cite{lyne2006pulsar}
+
+
+The 
+
+\subsection{neutron star and equation of state}
+
+Crust and core decoupled causes star quakes
+
+\cite{kraus1986radio}
+
+

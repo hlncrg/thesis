@@ -1,0 +1,153 @@
+\section{Magnetic Field Line Calculation}
+\label{sec:calculation}
+In this section we discuss how to calculate $\zeta$, the viewing angle, and $\phi$, the pulsar phase
+from a photon at a given point in the magnetosphere of a pulsar
+with $\alpha$, the angle between rotation axis and magnetic axis.
+First we describe the magnetosphere in mathematical terms.
+Next we calculate the velocity of a charged particle within
+the magnetosphere which dictates the motion of the particle.  
+Finally, we describe the projection of photons produced by curvature
+radiation from the charged particles onto the field of view.
+These photons are the observables from earth.
+
+\subsection{A Point in the Magnetosphere}
+
+In the frame where the magnetic axis is along the $z$ axis, $\theta_{B}(\phi_{B})$ defines
+the polar cap edge. The polar cap is defined by the last closed field lines
+on the surface of the pulsar.  Field lines originating from within the cap are open
+and extend beyond the light cylinder never to return to the surface
+of the pulsar.  The light cylinder is the region where co-rotating
+particles are traveling at the speed of light.
+The fractional distance from the cap edge is given by the parameter $w$,
+where $w=1$ is the center of the cap at the magnetic pole and $w=0$ is the edge of the cap.
+The angle from the magnetic axis is
+$\theta_w=\theta_{B}(1-w)$.  A field line traced from the neutron 
+star surface can be defined by a point using
+the cap parameters:
+
+\begin{equation}
+\begin{array}{ccc}
+x= & \sin(\theta_w) \cos(\phi_B), \\
+y= & \sin(\theta_w) \sin(\phi_B), \\
+z= & \cos(\theta_w). \end{array}
+\end{equation}
+
+This point is
+in the frame where the magnetic axis is along $\hat{z}$.
+This point in the frame where the axis
+of rotation is along $\hat{z}$
+is obtained by applying a rotation matrix as follows:
+
+\begin{equation}
+\begin{array}{c}
+             \\
+R_{y}(\alpha)\\
+              \end{array} 
+\qquad
+\left( \begin{array}{c}
+x  \\
+y  \\
+z  \end{array} \right)
+\qquad
+\begin{array}{c}
+   \\
+=  \\
+   \end{array}
+\qquad
+\left[ \begin{array}{ccc}
+\cos \alpha  & 0 & \sin \alpha  \\
+0            & 1 & 0            \\
+-\sin \alpha & 0 & \cos \alpha  \end{array} \right]
+\qquad
+\left( \begin{array}{c}
+\sin \theta_w \cos \phi_B  \\
+\sin \theta_w \sin \phi_B  \\
+\cos \theta_w  \end{array} \right)
+.\end{equation}
+
+In the new coordinates the starting point of a given magnetic field line is given by:
+
+\begin{equation}
+\begin{array}{cc}
+x= &  \cos\phi_B \sin\theta_w \cos\alpha + \cos\theta_w \sin\alpha, \\
+y= &  \sin\phi_B \sin\theta_w, \\
+z= & -\cos\phi_B \sin\theta_w \sin\alpha +  \cos\theta_w \cos\alpha. 
+\end{array}
+\end{equation}
+
+This can be translated into the more useful spherical coordinates as follows:
+
+\begin{equation}
+\begin{array}{cc}
+r=      & R_{\rm{NS}}, \\
+\theta= & \arctan(\sqrt{(x^2+y^2)/z_w)}\textrm{ }), \\
+\phi=   & \arctan(y/x). \\ 
+\end{array} 
+\end{equation}
+
+
+\subsection{Velocity and Motion of a Charged Particle}
+
+The velocity ($\vec{v}_{\rm tot}$)
+of a charged particle within the magnetosphere 
+can be calculated in order
+to obtain the direction of travel.
+We can calculate the magnetic field strength at this point $(r,\theta,\phi)$ using
+Equation \ref{eq:magField}.  The field at this location points in the direction
+$\hat{v}_B$.  Charged particles will travel in this direction along the magnetic
+field. Additionally, the velocity due to co-rotation with the star is
+given by $\vec{v}_{\rm t}=<-y,x,0>$.
+
+We need the \textit{magnitude} of $\vec{v}_B$ to find
+$\vec{v}_{\rm tot}=\vec{v}_B+\vec{v}_{\rm t}$;
+only the direction is obtained by Equation \ref{eq:magField}.
+We estimate $|\vec{v}_B+\vec{v}_{\rm t}|=c=1$ and manipulate
+this to
+
+\begin{equation}
+\vec{v}_B^2+ 2 \vec{v}_B \cdot \vec{v_{\rm t}} + \vec{v_{\rm t}}^2 = 1.
+\end{equation}
+By simply expanding out, the equation becomes
+\begin{equation}
+v_B^2+(\vec{v}_{\rm t} \cdot \hat{v}_B)^2 + 2 \sqrt{v_B^2} \hat{v}_B \cdot \vec{v}_{\rm t} -(\vec{v}_{\rm t} \cdot \hat{v}_B)^2 + v_{\rm t}^2 = 1.
+\end{equation}
+The above equation can be further manipulated to
+\begin{equation}
+|\vec{v}_B|=-\vec{v}_{\rm t} \cdot \hat{v}_B + \sqrt{(\vec{v}_{\rm t} \cdot \hat{v}_B)^2 - v_{\rm t}^2 +1}
+\end{equation}
+thus solving for the magnitude of the velocity on a charged particle from the magnetic field
+and $\vec{v}_{\rm tot}=\vec{v}_B+\vec{v}_{\rm t}$ is obtained.
+
+Further, a charged particle moving along the field line will be located
+after one time step at approximately:
+\begin{equation}
+  \begin{array}{c}
+x'=x+|v_B|\frac{B_x}{\sqrt{B_x^2+B_y^2+B_z^2}} \Delta t, \\
+y'=y+|v_B|\frac{B_y}{\sqrt{B_x^2+B_y^2+B_z^2}} \Delta t, \\
+z'=z+|v_B|\frac{B_z}{\sqrt{B_x^2+B_y^2+B_z^2}} \Delta t .\end{array}
+\end{equation}
+ignoring higher order terms.
+We set $\Delta t =1/2500$ for all calculations.
+
+\subsection{Projection onto the $\zeta$--$\phi$ Viewing Plane}
+
+The total velocity can be expressed in spherical coordinates, $(\phi_{\rm v},\theta_{\rm v})$.
+This velocity of a charged particle in the magnetosphere is
+in the same direction as the direction of a photon emitted tangent to the field line
+at the given point.
+In order to project this photon onto the plane of the sky, 
+the viewing angle is simply given as $\zeta=\theta_{\rm v}$.
+
+The phase at which the photon arrives at an observer is given as
+$\phi=\phi_{\rm v} +\Delta\phi_{\rm{travel-time}}$.  The extra piece $\Delta\phi_{\rm{travel-time}}$
+is needed because photons emitted at different locations in the magnetosphere
+will arrive at the observer at different times even if they are aimed in the same direction.
+This change in phase is known as the travel time correction.
+The phase difference is related to the speed of light and the spin of the pulsar:
+$\Delta\phi_{\rm{travel-time}}=\Omega \Delta t_{\rm{travel-time}}=\Omega \Delta d_{\rm{travel-time}}/c$.
+The variable $\Delta d_{\rm{travel-time}}$ is then the distance along the line of sight 
+to the observer which is $\Delta d_{\rm{travel-time}}=\vec{v}_{\rm tot} \cdot <x,y,z>$.  
+Since $\Omega=1$ and $c=1$, the phase is simply given as
+$\phi=\phi_{\rm v} + \vec{v}_{\rm tot} \cdot <x,y,z>$.
+
+

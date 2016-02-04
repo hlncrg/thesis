@@ -1,0 +1,97 @@
+\section{Pulsar Magnetosphere}
+\label{sec:pulsarMag}
+The simplest model of the pulsar magnetosphere is
+a very large magnetic (static) dipole in space.  Many of 
+the well-used analytic formulations for analysis of pulsar
+data are based on this simplistic assumption. 
+We will discuss some of the models in later chapters.
+
+The magnetic field of a \textit{rotating} vacuum dipole are given as
+
+\begin{equation}
+\label{eq:magField}
+\vec{B}=-\frac{ \vec{m}(t_{\rm r}) +r\dot{\vec{m}}(t_{\rm r}) + r^2\ddot{\vec{m}}(t_{\rm r})}{r^3} + \left[ \frac{ 3\vec{m}(t_{\rm r}) +3r\dot{\vec{m}}(t_{\rm r}) + r^2\ddot{\vec{m}}(t_{\rm r})}{r^3} \cdot \mathbf{\hat{r}} \right] \hat{r}
+\end{equation}
+with
+$\vec{m}(t_{\rm r})=m\left[\sin{(\alpha)} \cos{(t_{\rm r} \omega)} \hat{x}+ \sin{(\alpha)} \sin{(t_{\rm r} \omega)} \hat{y} +\cos{(\alpha)} \hat{z}\right]$
+\citep{kaburaki1980determination}.
+Here retarded time is $t_{\rm r}=t-r/c$
+and $m$ is dipole magnetic moment.
+This magnetic field contains information about relativistic effects
+as well as a sweep-back form from the spin of the neutron star, making
+it much more realistic than the classical dipole.  Conversely, it is much more difficult
+to use in analytical closed-form formulations without approximations.
+We use this form of the magnetic field extensively in modeling
+of both the radio and $\gamma$-ray emission in our computational 
+models.
+
+In the pulsar magnetosphere, two primary regions emit photons: the polar gap
+and the outer gap.  The polar gap is located near the magnetic pole of the pulsar
+and relatively low in the magnetosphere near the surface of the neutron star.
+Here the magnetic field is the strongest.   Emission is produced by curvature 
+radiation.  Further, interaction of photons within the strong magnetic field
+produce electron-position pair that then cause a cascade effect.  The
+polar gap is the classical location of radio emission.
+
+The outer gap is located further out in the magnetosphere in comparison to 
+the polar gap and is also in a wider range of altitudes as it is said
+to follow particular field lines.  The existence of the outer gap
+is based on the Goldreich-Julian density: 
+\begin{equation}\rho=\frac{\vec{\nabla}\cdot \vec{E}}{4\pi}=-\frac{\vec{\Omega}\cdot \vec{B}}{2\pi}.\end{equation}
+The Goldreich-Julian density is formulated from Gauss' Law applied
+to a force free model:
+\begin{equation}\vec{F}=\vec{E}+(\vec{\Omega}\times \vec{r})\times \vec{B}/c=0.\end{equation}
+This density arises from the spin of the neutron star 
+(a spherical electric conductor) in  
+its own magnetic field. Such spinning causes a \textit{nonzero}
+force but free charges from the neutron star rearrange
+according to the Goldreich-Julian density
+to cancel this rotation-induced electromotive force.
+
+The outer gap is located on the outer side of the null charge surface,
+a cone-like surface originating from the polar cap (and within
+the region of open field lines).  
+The open field lines are those that extend beyond the pulsar light cylinder
+never to return to the other magnetic pole.
+The light cylinder radius, $R_{\rm{LC}}$, is the distance from the
+center of the neutron star at which co-rotating particles would be traveling at the
+speed of light.
+The null charge surface
+is located at $\vec{B}\cdot\vec{\Omega}=0$ in the magnetosphere.  This surface
+is then defined by the location of the curvature of the magnetic 
+field lines changing direction in relation to the spin axis but is
+also the location where $\rho=0$.  One side of the surface is of one charge
+and the other side of the surface is of the opposite charge.  
+
+Further, if the charged particles are located in the region of open 
+field lines, the charged particles are not simply locked in the
+magnetosphere but can escape along the open field lines out of the 
+magnetoshere and into space.  This exodus of charged particles is
+favorable near the null charge surface because of the proximity 
+of charged particles of opposite sign.  
+
+This outflow creates a gap in the charge density (the outer gap)
+where free charges can accelerate to relativistic energies and
+emit in the $\gamma$-rays.  Further, this charge-starved
+region is the location of cascade processes of pair-production. 
+
+Charged particles in the magnetosphere are argued to co-rotate 
+with field lines while traveling along the field lines.
+In particular, we can note that gyrating motion of the 
+particles around field lines will dissipate quickly through
+synchrotron radiation.  
+Synchrotron lifetime of electron is $T_{\rm s}=(5.1\times10^8 /B^2)\sqrt{1-v^2/c^2} $ s,
+where $B$ is in Gauss
+\citep{lyne2006pulsar}.
+This timescale is much smaller than
+the travel time of a particle following a field line thus
+any gyration will be dissipated.
+
+A third gap has been argued to exist that bridges the outer gap region
+and the polar cap gap and is called the slot gap.  
+This gap is thin and extends from the polar cap to the light cylinder following
+the last closed field lines.
+The $\gamma$-ray model with emission from
+this gap is called the two-pole caustic model \citep{dyks2003two}. 
+This model will be mentioned again in Chapter \ref{chapter:collaborationWork} 
+in the work of $\gamma$-ray modeling in connection to polarization modeling.

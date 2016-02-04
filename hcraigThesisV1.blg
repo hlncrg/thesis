@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2011/TWW)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: hcraigThesisV1.aux
+A level-1 auxiliary file: extras/abstract.aux
+A level-1 auxiliary file: chapters/roadMap/main.aux
+A level-1 auxiliary file: chapters/pulsarAnatomy/main.aux
+A level-1 auxiliary file: chapters/radioDataAnalyticModels/main.aux
+A level-1 auxiliary file: chapters/numericalModel/main.aux
+A level-1 auxiliary file: chapters/BCWlimitations/main.aux
+A level-1 auxiliary file: chapters/applicationOfNumericalModel/main.aux
+A level-1 auxiliary file: chapters/multiWaveLength/main.aux
+A level-1 auxiliary file: chapters/inwardDirectedPhotons/main.aux
+A level-1 auxiliary file: chapters/outlook/main.aux
+A level-1 auxiliary file: bibliography.aux
+The style file: apj.bst
+Database file #1: hcraigThesisV1.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty journal in hartogJ1513
+Warning--empty journal in pacini1967energy
+You've used 101 entries,
+            3010 wiz_defined-function locations,
+            1222 strings with 21686 characters,
+and the built_in function-call counts, 45141 in all, are:
+= -- 3865
+> -- 2966
+< -- 62
++ -- 1047
+- -- 1042
+* -- 3665
+:= -- 8541
+add.period$ -- 101
+call.type$ -- 101
+change.case$ -- 639
+chr.to.int$ -- 96
+cite$ -- 103
+duplicate$ -- 1895
+empty$ -- 2738
+format.name$ -- 1216
+if$ -- 8943
+int.to.chr$ -- 6
+int.to.str$ -- 1
+missing$ -- 94
+newline$ -- 307
+num.names$ -- 404
+pop$ -- 657
+preamble$ -- 1
+purify$ -- 638
+quote$ -- 0
+skip$ -- 1610
+stack$ -- 0
+substring$ -- 2072
+swap$ -- 38
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 903
+warning$ -- 2
+while$ -- 377
+width$ -- 0
+write$ -- 1005
+(There were 2 warnings)
